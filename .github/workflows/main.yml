@@ -3,7 +3,7 @@ name: Update Chinese EPG File
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 * * * *'
+    - cron: '* 1 * * *'
   push:
     branches:
       - master
